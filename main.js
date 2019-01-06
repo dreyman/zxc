@@ -21,7 +21,7 @@
   function setProgress() {
     let info = getInfo();
     document.getElementById('i').style.width = info.day / info.daysInYear * 100 + '%';
-    document.getElementById('day').innerHTML = /* info.year + '.' + */ info.day;
+    document.getElementById('day').innerHTML = info.year + '.' + info.day;
   }
 
 })();
